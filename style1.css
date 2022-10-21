@@ -1,0 +1,162 @@
+*,*::after, *::before{
+  box-sizing: border-box;
+  margin-left: 0;
+}
+
+.product{
+  border: 3px solid black;
+  width: 800px;
+  height: auto;
+  margin: auto;
+}
+
+h1{
+  text-transform: capitalize;
+  background-color: rgb(216, 215, 215);
+  text-align: center;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  
+  
+}
+
+.price{
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 0; 
+}
+
+.free-shipment{
+  color: #888;
+  margin-top: 0;
+  font-size: 16;
+  font-weight: bold;
+}
+
+.product-description{
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+a:link:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a{
+  color: black;
+  margin-bottom: 20px;
+}
+
+.color{
+  background-color: black;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.color-blue{
+  background-color: blue;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.color-green{
+  background-color: green;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.color-red{
+  background-color: red;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.color-yellow{
+  background-color: yellow;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.color-brown{
+  background-color: burlywood;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.product-details{
+  text-transform: uppercase;
+
+}
+
+ul{
+  margin-left: -20px;
+  letter-spacing: 0.5px;
+}
+
+button{
+  width: 100%;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  height: 50px;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+   
+}
+
+/*floating elements*/
+/*
+figure{
+  float: left;
+  margin: 0 auto;
+
+}
+
+.second-box{
+  float: left;
+  margin-left: 40px;
+
+  
+}
+
+.third-box{
+  float: right;
+  
+
+}*/
+
+.flexible-items{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+
+.third-box{
+  line-height: 40px;
+}
+
